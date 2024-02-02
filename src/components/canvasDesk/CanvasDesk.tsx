@@ -2,7 +2,7 @@
 const CanvasDesk = () => {
     return (
         <div className='desk'>
-            123
+            <canvas></canvas>
         </div>
     );
 };

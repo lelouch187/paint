@@ -6,11 +6,14 @@ import CanvasDesk from "./components/canvasDesk/CanvasDesk.tsx";
 function App() {
 
     return (
-        <>
+        <div className="app">
             <TollBar/>
             <SettingBar/>
-            <CanvasDesk/>
-        </>
+            <div className="content">
+                <CanvasDesk/>
+            </div>
+
+        </div>
     )
 }
 

@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.app {
+    background-color: #E5E5E5;
+    height: 100vh;
+}
+
 .tollBar, .settingBar {
     padding: 5px 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -36,9 +41,19 @@
     margin-left: 12px;
 }
 
-.desk{
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: calc(100vh - 80px);
+}
+
+.desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    width: 800px;
+    height: 600px;
 }
